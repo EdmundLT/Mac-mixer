@@ -12,7 +12,7 @@ Turn Chrome down while keeping Spotify loud. AppMixer puts per-app volume slider
 
 <p align="center"><em>Native 0.2.0 UI in demo mode. Playback is simulated and external actions are disabled; this is not evidence of live audio testing.</em></p>
 
-> **Preview software:** live audio isolation and recovery still need real-world testing. Start with built-in speakers. The published **0.1.0** download does not include the login or update controls shown above. The **0.2.0 ZIP** is now Developer ID signed, Apple-notarized and available in Releases. Its DMG container is still awaiting notarization and is not published. Check the release notes for each download's signing and notarization status.
+> **Preview software:** live audio isolation and recovery still need real-world testing. Start with built-in speakers. The published **0.1.0** download does not include the login or update controls shown above. The **0.2.0 ZIP and DMG** are Developer ID signed, Apple-notarized and available in Releases. Check the release notes for each download's signing and notarization status.
 
 ## Features
 
@@ -36,8 +36,8 @@ Audio is processed locally in memory, **never saved or uploaded**. No virtual au
 
 ## Install
 
-1. Download the **0.2.0 ZIP** from [Releases](https://github.com/EdmundLT/Mac-mixer/releases/tag/v0.2.0).
-2. Unzip it and move **AppMixer.app** into **Applications**.
+1. Download the **0.2.0 ZIP or DMG** from [Releases](https://github.com/EdmundLT/Mac-mixer/releases/tag/v0.2.0).
+2. Unzip the ZIP or open the DMG, then move **AppMixer.app** into **Applications**.
 3. Open AppMixer, then click its **slider icon in the menu bar**.
 4. The app attempts to enable audio control on launch. If macOS asks for audio recording access, choose whether to allow it.
 

@@ -10,14 +10,14 @@ AppMixer 是 Mac 選單列工具，目標是讓你**調低 Chrome，同時保留
 
 ## 下載與安裝
 
-1. 前往 [GitHub Releases](https://github.com/EdmundLT/Mac-mixer/releases) 下載 **0.2.0 ZIP**。
-2. 解壓縮 ZIP，把 **AppMixer.app** 拖到「應用程式」。
+1. 前往 [GitHub Releases](https://github.com/EdmundLT/Mac-mixer/releases) 下載 **0.2.0 ZIP 或 DMG**。
+2. 解壓縮 ZIP 或開啟 DMG，把 **AppMixer.app** 拖到「應用程式」。
 3. 開啟 AppMixer，點選螢幕上方選單列的**滑桿圖示**。
 4. App 會嘗試啟用音量控制；macOS 若詢問音訊錄製權限，需要你親自決定是否允許。
 
 需要 **Apple Silicon Mac、macOS 14.2 以上**。建議先使用內建揚聲器；AirPods 或其他音訊裝置可能不支援。
 
-**0.2.0 ZIP 已發布**，包含登入啟動及更新功能，已完成 Developer ID 簽署、Apple 公證及票據附加。DMG 容器仍待公證，尚未提供下載。0.1.0 使用者需先手動安裝一次新版。
+**0.2.0 ZIP 與 DMG 已發布**，包含登入啟動及更新功能，已完成 Developer ID 簽署、Apple 公證及票據附加。DMG 容器亦已完成公證及票據附加。0.1.0 使用者需先手動安裝一次新版。
 
 ## 操作方式
 
