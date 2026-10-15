@@ -1,4 +1,4 @@
-AppMixer 0.1.0 — Preview
+AppMixer 0.2.0 — Preview
 Apple Silicon (arm64), macOS 14.2 or newer.
 
 Drag AppMixer.app to Applications, then open it. Use its menu-bar slider icon.
@@ -16,3 +16,9 @@ playback have NOT yet been validated. No driver or default-output change is
 required. Audio is processed locally and is not saved or uploaded.
 
 Choose Stop & Restore to stop processing; Quit exits the app.
+
+Launch at Login is optional and can be enabled from the menu-bar panel.
+Check for Updates checks the signed update feed. Automatically Check for
+Updates is off by default. Installation requires user confirmation.
+Install this Sparkle-enabled version manually once; later verified releases
+can be installed through the app. An empty feed means no update is available.

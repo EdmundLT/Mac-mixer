@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>AppMixer Updates</title>
+    <link>https://github.com/EdmundLT/Mac-mixer</link>
+    <description>Verified AppMixer releases. No automatic update is available yet.</description>
+    <language>en</language>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: kDczzgoBeXdWor66Yhqzj34QnGEIjsf1U0RSKZl8D8w2syloiz2IsY9YaHqA2FUEwxQIfaR8wQ81fmxXnP/jDQ==
+length: 626
+-->
