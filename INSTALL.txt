@@ -1,0 +1,18 @@
+AppMixer 0.1.0 — Preview
+Apple Silicon (arm64), macOS 14.2 or newer.
+
+Drag AppMixer.app to Applications, then open it. Use its menu-bar slider icon.
+The app automatically attempts activation and macOS may request system audio
+recording permission. Only approve if you want per-app volume control.
+
+This build is locally ad-hoc signed, NOT Apple notarized. macOS may block an
+app downloaded from GitHub. If you trust this build, use the system's Privacy
+& Security settings to review the blocked app. Do not disable Gatekeeper.
+
+Start with built-in speakers. This prototype supports limited Float32 stereo
+output layouts. Bluetooth and multichannel devices may not be supported.
+Real Chrome/Spotify audio isolation, crash recovery, latency and long-running
+playback have NOT yet been validated. No driver or default-output change is
+required. Audio is processed locally and is not saved or uploaded.
+
+Choose Stop & Restore to stop processing; Quit exits the app.
