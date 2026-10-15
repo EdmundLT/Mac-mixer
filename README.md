@@ -12,7 +12,7 @@ Turn Chrome down while keeping Spotify loud. AppMixer puts per-app volume slider
 
 <p align="center"><em>Native 0.2.0 UI in demo mode. Playback is simulated and external actions are disabled; this is not evidence of live audio testing.</em></p>
 
-> **Preview software:** live audio isolation and recovery still need real-world testing. Start with built-in speakers. The published **0.1.0** download does not include the login or update controls shown above. The **0.2.0** candidate has been submitted for Apple notarization but is not yet published as a Release. Check the release notes for each download's signing and notarization status.
+> **Preview software:** live audio isolation and recovery still need real-world testing. Start with built-in speakers. The published **0.1.0** download does not include the login or update controls shown above. The **0.2.0 ZIP** is now Developer ID signed, Apple-notarized and available in Releases. Its DMG container is still awaiting notarization and is not published. Check the release notes for each download's signing and notarization status.
 
 ## Features
 
@@ -36,8 +36,8 @@ Audio is processed locally in memory, **never saved or uploaded**. No virtual au
 
 ## Install
 
-1. Download the **DMG** from [Releases](https://github.com/EdmundLT/Mac-mixer/releases).
-2. Open it and drag **AppMixer.app** into **Applications**. Alternatively, unzip the ZIP and move the app there.
+1. Download the **0.2.0 ZIP** from [Releases](https://github.com/EdmundLT/Mac-mixer/releases/tag/v0.2.0).
+2. Unzip it and move **AppMixer.app** into **Applications**.
 3. Open AppMixer, then click its **slider icon in the menu bar**.
 4. The app attempts to enable audio control on launch. If macOS asks for audio recording access, choose whether to allow it.
 
@@ -52,7 +52,7 @@ A downloaded preview may be blocked if it is not notarized. If you trust the bui
 
 In **0.2.0**, enable **Launch at Login** if desired. If macOS requires approval, use the panel's **Open Login Items Settings** button.
 
-Use **Check for Updates…** for a manual check, or enable **Automatically Check for Updates**. Automatic checking is off by default. Existing 0.1.0 users must manually install a Sparkle-enabled release once. The initial update feed contains no downloads yet.
+Use **Check for Updates…** for a manual check, or enable **Automatically Check for Updates**. Automatic checking is off by default. Existing 0.1.0 users must manually install a Sparkle-enabled release once. The signed update feed now includes 0.2.0.
 
 ## Troubleshooting
 
@@ -63,7 +63,7 @@ Use **Check for Updates…** for a manual check, or enable **Automatically Check
 | Unsupported output | Select built-in speakers in macOS Sound settings and try again. |
 | Control stopped after sleep or an output change | Re-enable control. AppMixer stops processing when those changes are detected. |
 | Launch at Login needs approval | Open Login Items Settings from the panel and review AppMixer's entry. |
-| No update available | The signed feed only advertises releases ready for installation; it currently has no update downloads. |
+| No update available | The signed feed only advertises releases ready for installation; 0.2.0 is currently the newest available version. |
 
 ## Current limits and testing
 

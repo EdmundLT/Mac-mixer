@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>AppMixer Updates</title>
-    <link>https://github.com/EdmundLT/Mac-mixer</link>
-    <description>Verified AppMixer releases. No automatic update is available yet.</description>
-    <language>en</language>
-  </channel>
-</rss><!-- sparkle-signatures:
-edSignature: kDczzgoBeXdWor66Yhqzj34QnGEIjsf1U0RSKZl8D8w2syloiz2IsY9YaHqA2FUEwxQIfaR8wQ81fmxXnP/jDQ==
-length: 626
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>AppMixer Updates</title>
+        <link>https://github.com/EdmundLT/Mac-mixer</link>
+        <description>Verified AppMixer preview releases.</description>
+        <language>en</language>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 15 Oct 2026 11:47:45 -0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/EdmundLT/Mac-mixer/releases/download/v0.2.0/AppMixer-0.2.0-macOS-arm64.zip" length="1266342" type="application/octet-stream" sparkle:edSignature="2qXWZMyLPp6VlSWsrUPqzw9+bm+dsexTFI2EDdNl3cqq5hUvUnzWBlh/nrEf3KUqM7RkNKkuejJnQBQceEmRCQ=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: 6clDmTsRW7N4XYYMiDbQc/w4kdhhc/aCnGDodj21nlM5B7RkNgBK0FjxK2uvWh8UpM8TrNhx/mkjfRQCGWhjAw==
+length: 1312
 -->

@@ -5,9 +5,9 @@ Drag AppMixer.app to Applications, then open it. Use its menu-bar slider icon.
 The app automatically attempts activation and macOS may request system audio
 recording permission. Only approve if you want per-app volume control.
 
-This build is locally ad-hoc signed, NOT Apple notarized. macOS may block an
-app downloaded from GitHub. If you trust this build, use the system's Privacy
-& Security settings to review the blocked app. Do not disable Gatekeeper.
+The official 0.2.0 release ZIP is Developer ID signed and Apple notarized,
+with its ticket attached. Local builds made by scripts/package.sh are
+ad-hoc signed and are not notarized. Check the release notes for status.
 
 Start with built-in speakers. This prototype supports limited Float32 stereo
 output layouts. Bluetooth and multichannel devices may not be supported.
